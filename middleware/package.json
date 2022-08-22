@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "@types/node": "^18.7.8",
+    "nodemon": "^2.0.19",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
+  },
+  "scripts": {
+    "build": "babel --out-file dist/bundle.js src/main.ts"
+  },
+  "dependencies": {
+    "fastify": "^4.5.2",
+    "fastify-sequelize": "^1.0.4",
+    "sequelize": "^6.21.4",
+    "sqlite3": "^5.0.11"
+  }
+}
